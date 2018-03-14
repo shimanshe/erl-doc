@@ -154,10 +154,13 @@ def make_htmlhelp(_dir, name):
 	write_file(path, text, encoding)
 	
 	text = contents_header
+	cata = sorted(cata, key=lambda x:x[1].strip())
 	for i in range(0, cata_len):
 		item = cata[i]
 		text +='<LI>'
-		text += object_sitemap % (item[1], item[2])
+		pos = item[2].find('#')
+		title = item[2][0:pos-5]
+		text += object_sitemap % (item[1].strip()+':'+title, item[2])
 		text += NEW_LINE
 	text += '</UL></BODY></HTML>'
 	path = os.path.join(_dir,name+".hhk")

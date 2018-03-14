@@ -1,4 +1,6 @@
 # built application files
 doc/
-git-commit.bat
+chm/
+*.bat
+__pycache__/
 

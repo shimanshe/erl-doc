@@ -4,12 +4,12 @@ create erlang chm manual file.
 ### Requirement
 you must install [python 3.x](https://www.python.org/downloads/) first.
 
-### How to use
-git clone https://github.com/shimanshe/erl-doc.git
-cd erl-doc
-python3 main.py
+### How to use  
+git clone https://github.com/shimanshe/erl-doc.git  
+cd erl-doc  
+python3 main.py  
 
-there are 4 options to select,
+there are 4 options to select,  
 1.build_htmlhelp_prj  
 2.fetch_doc_html  
 3.handle_html  

@@ -18,7 +18,7 @@ there are 4 options to select,
 * select fetch_doc_html to download erlang man pages from erlang website.
 you can run this option multiple until there is no more html file downloaded.
 
-* select handle_html to deal with the downloaded html files, such remove left navigate memu, remove javascripts.
+* select handle_html to deal with the downloaded html files, such as remove left navigate memu, remove javascripts.
 
 * select make_htmlhelp_prj to create chm project files, hhc, hhp, hhk.
 * select build_htmlhelp_prj to build html workshop project to creating chm help file.

@@ -22,3 +22,7 @@ you can run this option multiple until there is no more html file downloaded.
 
 * select make_htmlhelp_prj to create chm project files, hhc, hhp, hhk.
 * select build_htmlhelp_prj to build html workshop project to creating chm help file.
+
+### Screenshoot
+![catalog](https://github.com/shimanshe/erl-doc/raw/master/cata.png)
+![index](https://github.com/shimanshe/erl-doc/raw/master/index.png)
